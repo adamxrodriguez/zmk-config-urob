@@ -14,10 +14,10 @@
 #define X_LB    &kp LSHFT
 #define X_RB    &kp RSHFT
 
-#define X_LH    &none &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT     &kp UP &kp DOWN U_WH_D U_WH_U &none \
-                &kp LCTRL &kp LALT      &kp LGUI  &kp RCTRL
-#define X_MH    &kp HOME    &kp PG_UP
-#define X_RH    &kp END     &kp PG_DN
+#define X_LH    &none &kp GRAVE &kp LALT &kp LEFT &kp RIGHT     &kp UP &kp DOWN U_WH_D U_WH_U &none \
+                &kp LGUI &kp LCTRL      &kp RALT  &kp RGUI
+#define X_MH    &kp LG(C)    &kp RG(Z)
+#define X_RH    &kp LG(V)     &kp RG(RS(Z))
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
